@@ -1,11 +1,12 @@
 #WRITE YOUR CODE IN THIS FILE
 def close10(x, y):
     if abs(x) < abs(y):
-        return True
+        return x
 
-    elif:
+    elif abs(x) > abs(y):
+        return y 
 
     else:
-        return False
+        return 0
 
 print (close10(5,12))
